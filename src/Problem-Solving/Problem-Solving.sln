@@ -5,7 +5,13 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-Pointer", "1-Pointer\1-Pointer.csproj", "{31FAA698-8C86-4F81-9314-19F5583522B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "move all positive number to the right side", "move all positive number to the right side\move all positive number to the right side.csproj", "{F37A9214-F82D-4526-B759-8EEC7C7BF167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "move all positive number to the right side", "move all positive number to the right side\move all positive number to the right side.csproj", "{F37A9214-F82D-4526-B759-8EEC7C7BF167}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate_Array_From_Rightside_With_K_Times", "Rotate_Array_From_Rightside_With_K_Times\Rotate_Array_From_Rightside_With_K_Times.csproj", "{240B87D0-845D-4D44-982E-811482F2217B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devide To number Withourt division operator", "Devide To number Withourt division operator\Devide To number Withourt division operator.csproj", "{30FE823F-6F3A-4CB9-97A0-D9CB1DFF2772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divided two number using binary search", "Divided two number using binary search\Divided two number using binary search.csproj", "{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{F37A9214-F82D-4526-B759-8EEC7C7BF167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F37A9214-F82D-4526-B759-8EEC7C7BF167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F37A9214-F82D-4526-B759-8EEC7C7BF167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240B87D0-845D-4D44-982E-811482F2217B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240B87D0-845D-4D44-982E-811482F2217B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240B87D0-845D-4D44-982E-811482F2217B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240B87D0-845D-4D44-982E-811482F2217B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FE823F-6F3A-4CB9-97A0-D9CB1DFF2772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FE823F-6F3A-4CB9-97A0-D9CB1DFF2772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FE823F-6F3A-4CB9-97A0-D9CB1DFF2772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FE823F-6F3A-4CB9-97A0-D9CB1DFF2772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
