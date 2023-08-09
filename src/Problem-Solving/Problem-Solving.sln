@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "move all positive number to
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate_Array_From_Rightside_With_K_Times", "Rotate_Array_From_Rightside_With_K_Times\Rotate_Array_From_Rightside_With_K_Times.csproj", "{240B87D0-845D-4D44-982E-811482F2217B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devide To number Withourt division operator", "Devide To number Withourt division operator\Devide To number Withourt division operator.csproj", "{30FE823F-6F3A-4CB9-97A0-D9CB1DFF2772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devide To number Withourt division operator", "Devide To number Withourt division operator\Devide To number Withourt division operator.csproj", "{30FE823F-6F3A-4CB9-97A0-D9CB1DFF2772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divided two number using binary search", "Divided two number using binary search\Divided two number using binary search.csproj", "{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divided two number using binary search", "Divided two number using binary search\Divided two number using binary search.csproj", "{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Odd Occurance in an array", "Find Odd Occurance in an array\Find Odd Occurance in an array.csproj", "{A27E8349-0309-4E24-BE21-506246C5E6E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pivot element", "Pivot element\Pivot element.csproj", "{C59D65A4-FC67-4361-875C-CEEE5C8E9891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchElementInRotatedArray_optimize code", "SearchElementInRotatedArray_optimize code\SearchElementInRotatedArray_optimize code.csproj", "{4AAA9E83-4771-48ED-B539-B027FC36C1FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA50274D-C4BB-4FFF-BB4A-B510AD22504B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27E8349-0309-4E24-BE21-506246C5E6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27E8349-0309-4E24-BE21-506246C5E6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27E8349-0309-4E24-BE21-506246C5E6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27E8349-0309-4E24-BE21-506246C5E6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59D65A4-FC67-4361-875C-CEEE5C8E9891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59D65A4-FC67-4361-875C-CEEE5C8E9891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59D65A4-FC67-4361-875C-CEEE5C8E9891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59D65A4-FC67-4361-875C-CEEE5C8E9891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAA9E83-4771-48ED-B539-B027FC36C1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAA9E83-4771-48ED-B539-B027FC36C1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAA9E83-4771-48ED-B539-B027FC36C1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAA9E83-4771-48ED-B539-B027FC36C1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

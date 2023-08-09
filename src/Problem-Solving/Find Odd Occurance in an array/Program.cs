@@ -1,5 +1,5 @@
 ﻿
-int[] nums = { 2,1, 1, 2, 2, 3, 3, 4, 4, 2, 2 };
+int[] nums = { 2,51, 1, 2, 2, 3, 3, 4, 4, 2, 2 };
 
 int start = 0;
 int end = nums.Length - 1;
