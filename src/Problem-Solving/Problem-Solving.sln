@@ -17,7 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find Odd Occurance in an ar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pivot element", "Pivot element\Pivot element.csproj", "{C59D65A4-FC67-4361-875C-CEEE5C8E9891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchElementInRotatedArray_optimize code", "SearchElementInRotatedArray_optimize code\SearchElementInRotatedArray_optimize code.csproj", "{4AAA9E83-4771-48ED-B539-B027FC36C1FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchElementInRotatedArray_optimize code", "SearchElementInRotatedArray_optimize code\SearchElementInRotatedArray_optimize code.csproj", "{4AAA9E83-4771-48ED-B539-B027FC36C1FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teat", "Teat\Teat.csproj", "{C9097C76-49C0-4773-8D82-7D97AEE1CF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{E2CDC546-656E-4DE0-8FEC-F108A4B26724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleShort", "BubbleShort\BubbleShort.csproj", "{602ABFC2-4BF0-4426-80AE-19958B39D203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{4AAA9E83-4771-48ED-B539-B027FC36C1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AAA9E83-4771-48ED-B539-B027FC36C1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AAA9E83-4771-48ED-B539-B027FC36C1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9097C76-49C0-4773-8D82-7D97AEE1CF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9097C76-49C0-4773-8D82-7D97AEE1CF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9097C76-49C0-4773-8D82-7D97AEE1CF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9097C76-49C0-4773-8D82-7D97AEE1CF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CDC546-656E-4DE0-8FEC-F108A4B26724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CDC546-656E-4DE0-8FEC-F108A4B26724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CDC546-656E-4DE0-8FEC-F108A4B26724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CDC546-656E-4DE0-8FEC-F108A4B26724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602ABFC2-4BF0-4426-80AE-19958B39D203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602ABFC2-4BF0-4426-80AE-19958B39D203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602ABFC2-4BF0-4426-80AE-19958B39D203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602ABFC2-4BF0-4426-80AE-19958B39D203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
