@@ -19,11 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pivot element", "Pivot elem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchElementInRotatedArray_optimize code", "SearchElementInRotatedArray_optimize code\SearchElementInRotatedArray_optimize code.csproj", "{4AAA9E83-4771-48ED-B539-B027FC36C1FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teat", "Teat\Teat.csproj", "{C9097C76-49C0-4773-8D82-7D97AEE1CF3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptio Handling", "Teat\Exceptio Handling.csproj", "{C9097C76-49C0-4773-8D82-7D97AEE1CF3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{E2CDC546-656E-4DE0-8FEC-F108A4B26724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{E2CDC546-656E-4DE0-8FEC-F108A4B26724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleShort", "BubbleShort\BubbleShort.csproj", "{602ABFC2-4BF0-4426-80AE-19958B39D203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleShort", "BubbleShort\BubbleShort.csproj", "{602ABFC2-4BF0-4426-80AE-19958B39D203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
