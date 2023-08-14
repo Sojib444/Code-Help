@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "SelectionS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleShort", "BubbleShort\BubbleShort.csproj", "{602ABFC2-4BF0-4426-80AE-19958B39D203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort-FCSC", "InsertionSort-FCSC\InsertionSort-FCSC.csproj", "{C9AD2B94-0F51-4E2D-9A0D-99EC2545DBD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{602ABFC2-4BF0-4426-80AE-19958B39D203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{602ABFC2-4BF0-4426-80AE-19958B39D203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{602ABFC2-4BF0-4426-80AE-19958B39D203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AD2B94-0F51-4E2D-9A0D-99EC2545DBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AD2B94-0F51-4E2D-9A0D-99EC2545DBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AD2B94-0F51-4E2D-9A0D-99EC2545DBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AD2B94-0F51-4E2D-9A0D-99EC2545DBD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

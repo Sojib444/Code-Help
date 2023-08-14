@@ -40,3 +40,19 @@ catch(Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
+
+
+
+//
+
+try
+{
+    GetComany getComany = new GetComany();
+
+    getComany.GetAllCompanies(false);
+
+}
+catch (Exception ex)
+{
+    throw;
+}
