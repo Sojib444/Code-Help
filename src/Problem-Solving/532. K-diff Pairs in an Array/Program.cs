@@ -1,20 +1,25 @@
 ﻿
-int[] arr = { 3, 1, 4, 1, 5 };
+int[] arr = { 1, 3};
 
 Array.Sort(arr);
+
+HashSet<int> hash = new();
 
 int k = 2;
 
 for(int i = 0; i < arr.Length-1; i++)
 {
-    if (arr[i] != arr[i+1])
+    for(int j = i+1; j < arr.Length; j++)
     {
-        int d = Math.Abs(arr[i] - arr[i + 1]);
-
-        if(d==k)
+        if (arr[j] - arr[i] == k)
         {
-
+            hash.Add(arr[j]);
+            break;
         }
+
+        if (arr[j] - arr[i] > k)
+            break;
     }
 }
 
+Console.WriteLine(hash.Count);

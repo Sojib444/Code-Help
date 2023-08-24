@@ -77,12 +77,6 @@ while (flag)
 
 Console.WriteLine(str);
 
-HashSet<char> chars = new HashSet<char>();
 
-chars.Add('a');
-chars.Add('a');
 
-foreach (var item in chars)
-{
-    Console.WriteLine(item);
-}
+
