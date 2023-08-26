@@ -79,4 +79,42 @@ Console.WriteLine(str);
 
 
 
+//using stack and queue
+
+string input = "azxxzy";
+
+Stack<char> chars = new Stack<char>();
+
+for(int i=0;i<input.Length;i++)
+{
+    if(chars.Count == 0)
+    {
+        chars.Push(input[i]);
+    }
+    else
+    {
+        char top_char = chars.Peek();
+
+        if(top_char == input[i])
+        {
+            chars.Pop();
+        }
+        else
+        {
+            chars.Push(input[i]);
+        }
+    }
+}
+
+char[] char_arr = chars.ToArray();
+
+StringBuilder builder = new StringBuilder();
+
+for(int i = char_arr.Length-1; i >= 0; i--)
+{
+    builder.Append(char_arr[i]);
+}
+
+Console.WriteLine(builder.ToString());
+
 
