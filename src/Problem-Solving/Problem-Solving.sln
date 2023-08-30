@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "532. K-diff Pairs in an Arr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1047. Remove All Adjacent Duplicates In String", "1047. Remove All Adjacent Duplicates In String\1047. Remove All Adjacent Duplicates In String.csproj", "{B38F2D46-C6F5-4BFE-947B-088EA4BECAD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "658. Find K Closest Elements", "658. Find K Closest Elements\658. Find K Closest Elements.csproj", "{503932BF-AC5A-4964-9517-F14F69A20BF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "658. Find K Closest Elements", "658. Find K Closest Elements\658. Find K Closest Elements.csproj", "{503932BF-AC5A-4964-9517-F14F69A20BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1910. Remove All Occurrences of a Substring", "1910. Remove All Occurrences of a Substring\1910. Remove All Occurrences of a Substring.csproj", "{122961E1-FD51-4232-B597-92986ED0A5A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{503932BF-AC5A-4964-9517-F14F69A20BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{503932BF-AC5A-4964-9517-F14F69A20BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{503932BF-AC5A-4964-9517-F14F69A20BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122961E1-FD51-4232-B597-92986ED0A5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122961E1-FD51-4232-B597-92986ED0A5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122961E1-FD51-4232-B597-92986ED0A5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122961E1-FD51-4232-B597-92986ED0A5A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
