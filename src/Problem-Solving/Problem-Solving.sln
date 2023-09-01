@@ -35,7 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1047. Remove All Adjacent D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "658. Find K Closest Elements", "658. Find K Closest Elements\658. Find K Closest Elements.csproj", "{503932BF-AC5A-4964-9517-F14F69A20BF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1910. Remove All Occurrences of a Substring", "1910. Remove All Occurrences of a Substring\1910. Remove All Occurrences of a Substring.csproj", "{122961E1-FD51-4232-B597-92986ED0A5A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1910. Remove All Occurrences of a Substring", "1910. Remove All Occurrences of a Substring\1910. Remove All Occurrences of a Substring.csproj", "{122961E1-FD51-4232-B597-92986ED0A5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement String charater Remove Method", "Implement String charater Remove Method\Implement String charater Remove Method.csproj", "{A36BAA68-B5EC-4A2A-885D-3CFD8776C773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "680. Valid Palindrome II", "680. Valid Palindrome II\680. Valid Palindrome II.csproj", "{7E23D077-65C1-42B4-9612-2CA38C18B032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "539. Minimum Time Difference", "539. Minimum Time Difference\539. Minimum Time Difference.csproj", "{2E2D65AD-7863-4E3F-8D48-F3C5A252A8C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +113,18 @@ Global
 		{122961E1-FD51-4232-B597-92986ED0A5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122961E1-FD51-4232-B597-92986ED0A5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122961E1-FD51-4232-B597-92986ED0A5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36BAA68-B5EC-4A2A-885D-3CFD8776C773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36BAA68-B5EC-4A2A-885D-3CFD8776C773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36BAA68-B5EC-4A2A-885D-3CFD8776C773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36BAA68-B5EC-4A2A-885D-3CFD8776C773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E23D077-65C1-42B4-9612-2CA38C18B032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E23D077-65C1-42B4-9612-2CA38C18B032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E23D077-65C1-42B4-9612-2CA38C18B032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E23D077-65C1-42B4-9612-2CA38C18B032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2D65AD-7863-4E3F-8D48-F3C5A252A8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2D65AD-7863-4E3F-8D48-F3C5A252A8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2D65AD-7863-4E3F-8D48-F3C5A252A8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2D65AD-7863-4E3F-8D48-F3C5A252A8C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
