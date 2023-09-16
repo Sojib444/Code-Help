@@ -1,4 +1,4 @@
 ﻿
-int a = 5;
+int[] arr = { 1, 2, 3 };
 
-int* ptr = &a;
+Console.WriteLine(arr);

@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "917. Reverse Only Letters",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14. Longest Common Prefix", "14. Longest Common Prefix\14. Longest Common Prefix.csproj", "{9F646156-E2CA-4DB1-8AA5-B5C88D5649BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "345. Reverse Vowels of a String", "345. Reverse Vowels of a String\345. Reverse Vowels of a String.csproj", "{C8EFCF60-29AB-4EB3-91B3-95398628A1F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "345. Reverse Vowels of a String", "345. Reverse Vowels of a String\345. Reverse Vowels of a String.csproj", "{C8EFCF60-29AB-4EB3-91B3-95398628A1F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pointer", "Pointer\Pointer.csproj", "{59B126C8-48FB-4093-959A-D2D4222FFA92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pointer", "Pointer\Pointer.csproj", "{59B126C8-48FB-4093-959A-D2D4222FFA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "205. Isomorphic Strings", "205. Isomorphic Strings\205. Isomorphic Strings.csproj", "{0BCBE541-4BCD-49BB-AB40-EC06F8881896}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,10 @@ Global
 		{59B126C8-48FB-4093-959A-D2D4222FFA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B126C8-48FB-4093-959A-D2D4222FFA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B126C8-48FB-4093-959A-D2D4222FFA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCBE541-4BCD-49BB-AB40-EC06F8881896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCBE541-4BCD-49BB-AB40-EC06F8881896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCBE541-4BCD-49BB-AB40-EC06F8881896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCBE541-4BCD-49BB-AB40-EC06F8881896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
