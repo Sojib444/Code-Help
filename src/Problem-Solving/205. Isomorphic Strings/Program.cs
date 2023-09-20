@@ -1,6 +1,4 @@
-﻿
-
-string s = "foo";
+﻿string s = "foo";
 string t = "arr";
 Dictionary<char,char> chars = new();
 Dictionary<char,char> chars1 = new();
