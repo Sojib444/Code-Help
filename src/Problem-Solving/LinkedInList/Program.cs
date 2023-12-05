@@ -1,74 +1,43 @@
 ﻿
-NodeList head = new(10);
-NodeList tail = new(99);
-//NodeList second = new(20);
-//NodeList third = new(20);
 
-//head.next = second;
-//second.next = third;
 
-//Lets Insert left of the head
-head.IsertAtTail(ref head, ref tail,300);
-head.IsertAtHead(ref head, ref tail, 1000);
-head.IsertAtHead(ref head, ref tail, 23);
-head.IsertAtHead(ref head, ref tail, 1042400);
 
-NodeList temp = head;
+NodeList list = new NodeList(0);
+list.AddFirst(10);
+list.AddFirst(20);
+list.AddFirst(30);
 
-while (temp != null)
+while(list.next != null)
 {
-    Console.WriteLine(temp.data);
-    temp = temp.next;
+    Console.WriteLine(list.data);
+    list.head = list.next;
 }
 
+
+//LinkedList<int> nodeLists = new LinkedList<int>();
 public class NodeList
 {
-    public NodeList()
-    {
-        data = 0;
-        next = null;
-    }
-
     public NodeList(int data)
     {
         this.data = data;
-        this.next = null;
     }
-    public int data { get; set; }
-    public NodeList? next { get; set; }
 
-    public void IsertAtHead(ref NodeList head, ref NodeList tail, int data)
+    public int data {  get; set; }
+    public NodeList next { get; set; }
+
+    public void AddFirst(int data)
     {
-        if (head == null)
+        NodeList nodeList = new NodeList(data);
+
+        if(head != null)
         {
-            head.data = data;
-            head.next = tail;
+            nodeList.next = head;
+            head = nodeList;
         }
         else
         {
-            NodeList newNode = new NodeList(data);
-            newNode.next = head;
-            head = newNode;
-        }         
+            head = nodeList;
+        }
     }
 
-    public void IsertAtTail(ref NodeList head, ref NodeList tail, int data)
-    {
-        if (head == null)
-        {
-            head.data = data;
-            head.next = null;
-        }
-        else
-        {
-            NodeList newNode = new NodeList(data);
-            newNode.next = tail;
-        }
-
-    }
 }
-
-
-
-
-
