@@ -103,7 +103,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C8067A97-4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{9CFC75A4-4267-467B-BC75-C6B7DAFFC236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add Two Array", "Add Two Array\Add Two Array.csproj", "{516BA110-7544-4986-9EA4-560FD23D1D12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Two Array", "Add Two Array\Add Two Array.csproj", "{516BA110-7544-4986-9EA4-560FD23D1D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoAarray", "AddTwoAarray\AddTwoAarray.csproj", "{37015687-6D8B-45A6-849C-D35BFE942376}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +305,10 @@ Global
 		{516BA110-7544-4986-9EA4-560FD23D1D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516BA110-7544-4986-9EA4-560FD23D1D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516BA110-7544-4986-9EA4-560FD23D1D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37015687-6D8B-45A6-849C-D35BFE942376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37015687-6D8B-45A6-849C-D35BFE942376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37015687-6D8B-45A6-849C-D35BFE942376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37015687-6D8B-45A6-849C-D35BFE942376}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
